@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.preto{
+    background-color: black;
+    height: 20vh;
+    grid-area: preto;
+}
+.amarelo{
+    background-color:yellow;
+    height: 70vh;
+    grid-area: amarelo;
+}
+.roxo{
+    background-color:purple;
+    height: 35vh;
+    grid-area: roxo;
+}
+.cinza{
+    background-color:gray;
+    height: 35vh;
+    grid-area: cinza;
+}
+.rosa{
+    background-color:palevioletred;
+    height: 10vh;
+    grid-area: rosa;
+;
+}
+.laranja{
+    background-color:orange;
+    height: 70vh;
+    grid-area: laranja;
+}
+.site{
+    display: grid;
+    width: 100vw;
+    grid-template-columns:10% 20% 70% ;
+    grid-template-areas: "preto preto preto"
+    "amarelo cinza laranja"
+    "amarelo roxo laranja"
+    "rosa rosa rosa"
+}
+
+
